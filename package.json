@@ -1,0 +1,18 @@
+{
+  "name": "vevit",
+  "version": "1.0.0",
+  "description": "a application to book vev in the sandbox",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Erik Persson",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}

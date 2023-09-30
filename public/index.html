@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>vevIT</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body>
+  <div class="main-content">
+  <h1>Book a Vev</h1>
+
+  <h3>Välj din motståndare:</h3>
+  <select id="studentSelect" class="select-student-button" onchange="selectStudent(this.value)">
+    <option value="" disabled selected>Select a student...</option>
+  </select>
+
+  <div class="select-time-div">
+    <label for="time">Välj tid:</label>
+    <input type="time" id="time" name="time">
+  </div>
+
+  <!-- Book Button -->
+  <button class="book-vev" onclick="bookVev()">Boka Vev i Sandlådan</button>
+</div>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
